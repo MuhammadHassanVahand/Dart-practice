@@ -1,3 +1,4 @@
+//function
 void checkActiveAdmin(Map<String, dynamic> user) {
   if (user["isAdmin"] == true && user["isActive"] == true) {
     print("Active Admin");
