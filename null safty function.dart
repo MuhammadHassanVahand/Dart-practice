@@ -1,8 +1,10 @@
-void name({String? name}) {
+void name({String? name, int? age}) {
   String yourName = name ?? "🤷‍♂️";
+  int YourAge = age!;
   print(yourName);
+  print(age);
 }
 
 void main() {
-  name();
+  name(age: 22);
 }
