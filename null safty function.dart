@@ -2,7 +2,7 @@ void name({String? name, int? age}) {
   String yourName = name ?? "🤷‍♂️";
   int YourAge = age!;
   print(yourName);
-  print(age);
+  print(YourAge);
 }
 
 void main() {
